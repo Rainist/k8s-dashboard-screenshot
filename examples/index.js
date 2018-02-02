@@ -1,4 +1,4 @@
-const { screenshot, screenshots, predefinedRecipes, hosts: { localhost } } = require('k8s-dashboard-screenshot');
+const { screenshot, screenshots, predefinedRecipes, hosts: { localhostProxy } } = require('k8s-dashboard-screenshot');
 
 (async () => {
   const insideAPod = await screenshot()
@@ -15,7 +15,7 @@ const { screenshot, screenshots, predefinedRecipes, hosts: { localhost } } = req
 
   const customHost = await screenshots({
     options: {
-      host: localhost
+      host: localhostProxy
     }
   })
 
