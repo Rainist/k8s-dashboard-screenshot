@@ -1,0 +1,35 @@
+{
+  "name": "k8s-dashboard-screenshot",
+  "version": "1.0.0",
+  "description": "An abstraction of taking a screenshot of k8s dashboard via puppeteer",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rainist/k8s-dashboard-screenshot.git"
+  },
+  "keywords": [
+    "k8s",
+    "kubernetes",
+    "dashboard",
+    "screenshot",
+    "puppeteer"
+  ],
+  "author": "Heechul Ryu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rainist/k8s-dashboard-screenshot/issues"
+  },
+  "homepage": "https://github.com/Rainist/k8s-dashboard-screenshot#readme"
+}
